@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Elegant Media</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="bottom_item_download">View</string>
+    <string name="google_map_api" translatable="false">AIzaSyBinrZLRj353PvUWrw4I76bzTFY_40sn_Q</string>
+
+    <!--    Dialogs-->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <!--    Titles-->
+    <string name="map">Map</string>
+    <string name="list">List</string>
+    <!--    Errors-->
+    <string name="fb_login_cancel">Login has been cancelled!</string>
+    <string name="api_something_went_wrong">Something Went Wrong!</string>
+    <!--    Facebook login-->
+    <string name="facebook_app_id">592805835414366</string>
+    <string name="fb_login_protocol_scheme">fb592805835414366</string>
+    <string name="facebook_client_token">b24151e442c5e9d1ec7c9c7f169e2541</string>
+</resources>

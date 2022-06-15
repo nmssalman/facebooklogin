@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.nmssalman.elegantmedia.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.nmssalman.elegantmedia.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listContentFragment"
+        android:name="com.nmssalman.elegantmedia.ListContentFragment"
+        android:label="fragment_list_content"
+        tools:layout="@layout/fragment_hotels_content" >
+        <action
+            android:id="@+id/action_listContentFragment_to_hotelDetailsFragment"
+            app:destination="@id/hotelDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hotelDetailsFragment"
+        android:name="com.nmssalman.elegantmedia.HotelDetailsFragment"
+        android:label="fragment_hotel_details"
+        tools:layout="@layout/fragment_hotel_details" />
+    <fragment
+        android:id="@+id/hotelLocationViewFragment"
+        android:name="com.nmssalman.elegantmedia.HotelLocationViewFragment"
+        android:label="fragment_hotel_location_view"
+        tools:layout="@layout/fragment_hotel_location_view" />
+</navigation>
